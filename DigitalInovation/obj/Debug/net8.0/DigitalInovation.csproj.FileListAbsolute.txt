@@ -1,0 +1,15 @@
+C:\Users\Andre\Documents\Csharp\EstudoCsharp\DigitalInovation\bin\Debug\net8.0\DigitalInovation.exe
+C:\Users\Andre\Documents\Csharp\EstudoCsharp\DigitalInovation\bin\Debug\net8.0\DigitalInovation.deps.json
+C:\Users\Andre\Documents\Csharp\EstudoCsharp\DigitalInovation\bin\Debug\net8.0\DigitalInovation.runtimeconfig.json
+C:\Users\Andre\Documents\Csharp\EstudoCsharp\DigitalInovation\bin\Debug\net8.0\DigitalInovation.dll
+C:\Users\Andre\Documents\Csharp\EstudoCsharp\DigitalInovation\bin\Debug\net8.0\DigitalInovation.pdb
+C:\Users\Andre\Documents\Csharp\EstudoCsharp\DigitalInovation\obj\Debug\net8.0\DigitalInovation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andre\Documents\Csharp\EstudoCsharp\DigitalInovation\obj\Debug\net8.0\DigitalInovation.AssemblyInfoInputs.cache
+C:\Users\Andre\Documents\Csharp\EstudoCsharp\DigitalInovation\obj\Debug\net8.0\DigitalInovation.AssemblyInfo.cs
+C:\Users\Andre\Documents\Csharp\EstudoCsharp\DigitalInovation\obj\Debug\net8.0\DigitalInovation.csproj.CoreCompileInputs.cache
+C:\Users\Andre\Documents\Csharp\EstudoCsharp\DigitalInovation\obj\Debug\net8.0\DigitalInovation.sourcelink.json
+C:\Users\Andre\Documents\Csharp\EstudoCsharp\DigitalInovation\obj\Debug\net8.0\DigitalInovation.dll
+C:\Users\Andre\Documents\Csharp\EstudoCsharp\DigitalInovation\obj\Debug\net8.0\refint\DigitalInovation.dll
+C:\Users\Andre\Documents\Csharp\EstudoCsharp\DigitalInovation\obj\Debug\net8.0\DigitalInovation.pdb
+C:\Users\Andre\Documents\Csharp\EstudoCsharp\DigitalInovation\obj\Debug\net8.0\DigitalInovation.genruntimeconfig.cache
+C:\Users\Andre\Documents\Csharp\EstudoCsharp\DigitalInovation\obj\Debug\net8.0\ref\DigitalInovation.dll
