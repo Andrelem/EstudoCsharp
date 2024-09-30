@@ -8,7 +8,8 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Andre\\.nuget\\packages\\": {}
+    "C:\\Users\\Andre\\.nuget\\packages\\": {},
+    "D:\\Visual\\Sdk\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
@@ -19,13 +20,19 @@
       "packagesPath": "C:\\Users\\Andre\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Andre\\Documents\\Csharp\\EstudoCsharp\\DigitalInovation\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\Visual\\Sdk\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Andre\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

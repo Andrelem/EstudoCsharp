@@ -1,17 +1,16 @@
 ﻿using System;
+using System.Formats.Asn1;
 
 namespace DigitalInovation
 {
     class Progam
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            int numeroDeVezes = 5;
+            Console.WriteLine("Qual seu nome?");
+            string nome = Console.ReadLine();
+            Console.WriteLine(nome);
 
-            for(int i=0; i < numeroDeVezes; i++)
-            {
-                Console.WriteLine($"Bem-vindo ao .NET {i}");
-            }
         }
 
     }
