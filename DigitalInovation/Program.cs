@@ -1,17 +1,18 @@
 ﻿using System;
-using System.Formats.Asn1;
+using Classes.Herança;
 
 namespace DigitalInovation
 {
-    class Progam
+    public class Progam
     {
-        static void Main()
+        static void Main(String[] args)
         {
-            Console.WriteLine("Qual seu nome?");
-            string nome = Console.ReadLine();
-            Console.WriteLine(nome);
+            Ponto p1 = new Ponto(10, 20);
 
+            Ponto3D p2 = new Ponto3D(10, 20, 30);
+
+            Ponto3D.Calcular();
         }
-
+       
     }
 }
