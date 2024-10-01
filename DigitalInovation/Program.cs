@@ -43,7 +43,7 @@ namespace DigitalInovation
                         }
                         break;
                     case "3":
-
+                        //calulcar media
                         break;
                     default:
                         throw new ArgumentOutOfRangeException();
