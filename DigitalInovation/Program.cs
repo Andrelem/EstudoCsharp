@@ -43,7 +43,41 @@ namespace DigitalInovation
                         }
                         break;
                     case "3":
-                        //calulcar media
+                        decimal notaTotal = 0;
+                        var nrAlunos = 0;
+                        for (int i=0; i < alunos.Length; i++)
+                        {
+                            if (!string.IsNullOrEmpty(alunos[i].Nome))
+                            {
+                                notaTotal = notaTotal + alunos[i].Nota;
+                                nrAlunos++;
+                            }
+                        }
+
+                        var mediaGeral = notaTotal / nrAlunos;
+                           
+                        Conceito conceitoGeral;
+                        if(mediaGeral < 2)
+                        {
+                            conceitoGeral = Conceito.E;
+                        }
+                        else if (mediaGeral <4)
+                        {
+                            conceitoGeral = Conceito.D;
+                        }
+                        else if (mediaGeral <6)
+                        {
+                            conceitoGeral = Conceito.C;
+                        }
+                        else if (mediaGeral <8)
+                        {
+                            conceitoGeral = Conceito.B;
+                        }
+                        else
+                        {
+                            conceitoGeral = Conceito.A;
+                        }
+                        Console.WriteLine($"Media geral: {mediaGeral} Conceito: {conceitoGeral}");
                         break;
                     default:
                         throw new ArgumentOutOfRangeException();
@@ -55,16 +89,16 @@ namespace DigitalInovation
 
         private static string ObterOpcaoUsuario()
         {
-            Console.WriteLine();
+            Console.WriteLine("--------------------");
             Console.WriteLine("Informe Uma Opção!:");
             Console.WriteLine("1- Inserir Novo Aluno.");
             Console.WriteLine("2- Listar Alunos.");
             Console.WriteLine("3- Calcular Média Geral.");
             Console.WriteLine("X- Sair Do Sistema");
-            Console.WriteLine();
+            Console.WriteLine("--------------------");
 
             string opcaoUsuario = Console.ReadLine();
-            Console.WriteLine();
+            Console.WriteLine("--------------------");
             return opcaoUsuario;
         }
     }
